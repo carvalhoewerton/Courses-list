@@ -1,0 +1,30 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+$custom-app-primary: mat.define-palette(mat.$yellow-palette);
+$custom-app-accent: mat.define-palette(mat.$blue-palette);
+$custom-app-warn: mat.define-palette(mat.$pink-palette);
+
+$custom-theme: mat.define-light-theme((
+  color: (
+    primary: $custom-app-primary,
+    accent: $custom-app-accent,
+    warn: $custom-app-warn,
+  )
+));
+
+@include mat.all-component-themes($custom-theme);
+@include mat.core-theme($custom-theme);
+
+@import 'https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap';
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  // Media query para telas menores que 768px
+}

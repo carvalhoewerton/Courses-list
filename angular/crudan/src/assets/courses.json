@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "1",
+    "name": "Angular",
+    "category": "front-end"
+  },
+  {
+    "_id": "2",
+    "name": "React",
+    "category": "front-end"
+  },
+  {
+    "_id": "3",
+    "name": "Vue.js",
+    "category": "front-end"
+  },
+  {
+    "_id": "4",
+    "name": "Node.js",
+    "category": "back-end"
+  }
+]
