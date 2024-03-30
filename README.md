@@ -1,5 +1,5 @@
 # Courses Full Stack project
-Full Stack project where you can make a Course CRUD with the help of a interface
+`Full Stack project where you can make a Course CRUD with the help of a interface`
 
 <h2>This project uses:</h2>
   Java/Spring for the backend<br>
